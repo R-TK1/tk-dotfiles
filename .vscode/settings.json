@@ -12,6 +12,7 @@
         ".gitignore": true,
         ".vscode": true,
         ".github": true,
+        "build": true
     },
     "cSpell.enabled": false
 }
