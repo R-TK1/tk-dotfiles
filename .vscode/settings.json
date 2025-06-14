@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/Thumbs.db": false,
+        ".git": true,
+        ".build": true,
+        ".clang-format": true,
+        ".clangd": true,
+        ".gitignore": true,
+        ".vscode": true,
+        ".github": true,
+    }
+}
