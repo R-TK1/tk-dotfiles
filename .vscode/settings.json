@@ -1,19 +1,14 @@
 {
     "files.exclude": {
-        "**/.DS_Store": false,
-        "**/.git": false,
-        "**/.hg": false,
-        "**/.svn": false,
-        "**/Thumbs.db": false,
-        ".git": true,
+        "**/.git": true,
+        "**/.vscode": true,
+        "**/.github": true,
+        "**/.gitignore": true,
+        "**/.clang-format": true,
+        "**/.clangd": true,
         ".build": true,
-        ".clang-format": true,
-        ".clangd": true,
-        ".gitignore": true,
-        ".vscode": true,
-        ".github": true,
         ".cache": true,
         "build": true
     },
-    "cSpell.enabled": false
+    "cSpell.enabled": false,
 }
