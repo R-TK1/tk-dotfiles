@@ -1,3 +1,7 @@
 #!/bin/bash
-cmake -B build -DCMAKE_BUILD_TYPE=$1
+if [ -z "$2" ]; then
+    cmake -B build -DCMAKE_BUILD_TYPE=$1 -DTK_UPDATE_MODULES:<BOOL>=true
+else
+    cmake -B build -DCMAKE_BUILD_TYPE=$1
+fi
 cd build && cmake --build . --parallel 9 --config $1
